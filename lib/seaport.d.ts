@@ -317,7 +317,7 @@ export declare class OpenSeaPort {
         referrerAddress?: string;
     }): Promise<string>;
     /**
-     * returns estimated amount of gas required for Fullfilling the order.
+     * Returns estimated amount of gas required for Fullfilling the order.
      * @param param0 __namedParamaters Object
      * @param order The order to fulfill, a.k.a. "take"
      * @param accountAddress The taker's wallet address
