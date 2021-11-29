@@ -2915,7 +2915,7 @@ export class OpenSeaPort {
   private async _atomicMatch(
       { buy, sell, accountAddress, metadata = NULL_BLOCK_HASH }:
       { buy: Order; sell: Order; accountAddress: string; metadata?: string },
-      onlyGetGasEstimation,
+      onlyGetGasEstimation?: boolean,
     ): Promise<string | number> {
     let value
     let shouldValidateBuy = true
